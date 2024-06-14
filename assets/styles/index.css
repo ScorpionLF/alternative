@@ -3,4 +3,29 @@ header {
     margin: 2% auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.head__contact {
+    display: grid;
+    justify-items: center;
+}
+
+.head__address,
+.head__workTime,
+.headSlogan {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.headPhone {
+    font-size: 24px;
+    font-weight: 700;
+    color: #404040;
+}
+
+.head__workTime,
+.headSlogan {
+    color: #676767;
 }
