@@ -1,7 +1,6 @@
 header {
-    margin: 2% auto;
+    margin: 2% auto 1% auto;
     justify-content: space-between;
-    align-items: center;
 }
 
 .head__contact {
@@ -72,3 +71,20 @@ nav {
     display: block;
 }
 
+.main__menu {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 23.1%;
+}
+
+.main__menu a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-right: 50px;
+}
