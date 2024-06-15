@@ -88,3 +88,7 @@ nav {
     text-align: left;
     margin-right: 50px;
 }
+
+.main__menu a:visited, a:focus, a:hover  {
+    color: #F1524F;
+}
